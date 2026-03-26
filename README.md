@@ -166,35 +166,34 @@ Validation accuracy comparison to highlight generalization performance.
 
 ## Repository Structure
 
-```bash
-deepfake-detection-comparison/
+```text
+deepfake-detection-comparison
 ├── .gitignore
 ├── README.md
 ├── Epics2.ipynb
 ├── epics1.ipynb
 ├── requirements.txt
-└── images/
+└── images
     ├── model_comparison.png
     ├── accuracy_comparison.png
     └── validation_accuracy_comparison.png
 
 
-Installation
-Clone the repository:
 
-- git clone https://github.com/MAYANK479/deepfake-detection-comparison.git
+## Installation
+
+Clone the repository and move into the project directory:
+
+```bash
+git clone https://github.com/MAYANK479/deepfake-detection-comparison.git
 cd deepfake-detection-comparison
-
-Install dependencies:
-- pip install -r requirements.txt
+pip install -r requirements.txt
 
 Usage
-
-Open Jupyter Notebook:
-- jupyter notebook
-
-Then run:
-- Epics2.ipynb
+Launch Jupyter Notebook and run the main notebook:
+jupyter notebook
+Open:
+Epics2.ipynb
 
 Future Improvements
 - Add precision, recall, F1-score, and ROC-AUC comparisons
@@ -203,5 +202,10 @@ Future Improvements
 - Add model checkpoint tracking and experiment logging
 - Deploy the best model in a web application
 
-Author
-Mayank Pandey
+## Author
+
+**Mayank Pandey**  
+**B.Tech CSE**  
+**Specialisation in Artificial Intelligence and Machine Learning**  
+
+[GitHub Profile](https://github.com/MAYANK479)
