@@ -166,7 +166,6 @@ Validation accuracy comparison to highlight generalization performance.
 
 ## Repository Structure
 
-```text
 deepfake-detection-comparison
 ├── .gitignore
 ├── README.md
