@@ -1,3 +1,5 @@
+<div align="center">
+
 # Deepfake Detection Comparison
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
@@ -7,15 +9,57 @@
 
 Comparative study of deep learning models for deepfake image detection across two datasets using transfer learning, hybrid architectures, and attention-based modeling.
 
+</div>
+
+---
+
+## Best Model
+
+> **Best overall performer:** `CNN + InceptionV3 + Attention`  
+> Achieved the strongest results on Dataset 1 with **99.66% training accuracy** and **100.00% validation accuracy**, making it the top-performing architecture in this project.
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Project Highlights](#project-highlights)
+- [Models Evaluated](#models-evaluated)
+- [Dataset Summary](#dataset-summary)
+- [Evaluation Metrics](#evaluation-metrics)
+- [Performance Results](#performance-results)
+- [Accuracy Comparison](#accuracy-comparison)
+- [Visual Results](#visual-results)
+- [Key Findings](#key-findings)
+- [Repository Structure](#repository-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Future Work](#future-work)
+- [Author](#author)
+
+---
+
+## Overview
+
+This project focuses on **binary deepfake image classification** using six different deep learning approaches. The objective is to compare their performance on two datasets of different scales and identify which architecture is most effective for deepfake detection.
+
+The study includes:
+
+- Transfer learning based models
+- Hybrid CNN-LSTM architectures
+- Attention-enhanced deep learning models
+- Comparative analysis using accuracy and loss metrics
+- Visual performance comparison across both datasets
+
 ---
 
 ## Project Highlights
 
-- Comparative evaluation of 6 deep learning models
-- Experiments conducted on 2 datasets of different scales
-- Analysis based on accuracy, validation accuracy, loss, and validation loss
-- Includes visual comparison graphs and performance tables
-- Focused on identifying the most effective architecture for deepfake image classification
+- Comparative evaluation of **6 deep learning models**
+- Experiments conducted on **2 datasets**
+- Includes **accuracy, validation accuracy, loss, and validation loss**
+- Visual comparison using saved result graphs
+- Strong focus on identifying the best model for deepfake image classification
 
 ---
 
@@ -43,7 +87,7 @@ Comparative study of deep learning models for deepfake image detection across tw
 
 ## Evaluation Metrics
 
-The models were compared using the following metrics:
+The models were evaluated using:
 
 - Training Accuracy
 - Validation Accuracy
@@ -112,11 +156,11 @@ Validation accuracy comparison to highlight generalization performance.
 
 ## Key Findings
 
-- `CNN+InceptionV3+Attention` achieved the best overall performance on Dataset 1.
-- `CNN+InceptionV3` and `VGG16+MTCNN` also showed consistently strong results.
-- Transfer learning based models outperformed standard CNN and LSTM-based approaches.
-- LSTM and CNN+LSTM delivered the weakest results for image-based deepfake classification.
-- On Dataset 2, some models showed strong training accuracy but lower validation accuracy, suggesting overfitting.
+- `CNN + InceptionV3 + Attention` achieved the best overall performance on Dataset 1.
+- `CNN + InceptionV3` and `VGG16 + MTCNN` also showed strong results across the experiments.
+- Transfer learning based architectures outperformed standard CNN and LSTM-based models.
+- `LSTM` and `CNN + LSTM` were less effective for this image classification task.
+- On Dataset 2, some models maintained strong training accuracy but lower validation accuracy, indicating overfitting.
 
 ---
 
