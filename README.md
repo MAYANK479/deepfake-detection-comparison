@@ -190,22 +190,23 @@ cd deepfake-detection-comparison
 pip install -r requirements.txt
 
 Usage
-Launch Jupyter Notebook and run the main notebook:
+Launch Jupyter Notebook:
+
 jupyter notebook
-Open:
+Open and run:
+
 Epics2.ipynb
 
-Future Improvements
-- Add precision, recall, F1-score, and ROC-AUC comparisons
-- Improve generalization using stronger data augmentation
-- Convert notebooks into modular Python scripts
-- Add model checkpoint tracking and experiment logging
-- Deploy the best model in a web application
+Future Work
+Add precision, recall, F1-score, and ROC-AUC comparisons
+Improve generalization using stronger data augmentation
+Convert notebook-based workflows into modular Python scripts
+Add model checkpoint tracking and experiment logging
+Deploy the best-performing model as a web application
 
-## Author
+Author
+Mayank Pandey
+B.Tech CSE
+Specialisation in Artificial Intelligence and Machine Learning
 
-**Mayank Pandey**  
-**B.Tech CSE**  
-**Specialisation in Artificial Intelligence and Machine Learning**  
-
-[GitHub Profile](https://github.com/MAYANK479)
+GitHub Profile
