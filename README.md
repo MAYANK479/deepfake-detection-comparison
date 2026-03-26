@@ -166,6 +166,7 @@ Validation accuracy comparison to highlight generalization performance.
 
 ## Repository Structure
 
+```
 deepfake-detection-comparison
 ├── .gitignore
 ├── README.md
@@ -177,6 +178,7 @@ deepfake-detection-comparison
     ├── accuracy_comparison.png
     └── validation_accuracy_comparison.png
 
+```
 ---
 
 ## Installation
@@ -216,4 +218,4 @@ Specialisation in Artificial Intelligence and Machine Learning
 
 GitHub: @MAYANK479
 
-==================================================================
+---
