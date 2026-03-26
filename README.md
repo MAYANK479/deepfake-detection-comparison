@@ -162,7 +162,7 @@ Validation accuracy comparison to highlight generalization performance.
 - `LSTM` and `CNN + LSTM` were less effective for this image classification task.
 - On Dataset 2, some models maintained strong training accuracy but lower validation accuracy, indicating overfitting.
 
------------------------------------------------------------------
+---
 
 ## Repository Structure
 
@@ -178,7 +178,7 @@ deepfake-detection-comparison
     ├── accuracy_comparison.png
     └── validation_accuracy_comparison.png
 
------------------------------------------------------------
+---
 
 ## Installation
 
@@ -188,7 +188,7 @@ git clone https://github.com/MAYANK479/deepfake-detection-comparison.git
 cd deepfake-detection-comparison
 pip install -r requirements.txt
 
--------------------------------------------------------------
+---
 
 Usage
 Launch Jupyter Notebook:
@@ -199,7 +199,7 @@ Open and run:
 
 Epics2.ipynb
 
--------------------------------------------------------------
+---
 
 Future Work
 Add precision, recall, F1-score, and ROC-AUC comparisons
@@ -208,10 +208,10 @@ Convert notebook-based workflows into modular Python scripts
 Add model checkpoint tracking and experiment logging
 Deploy the best-performing model as a web application
 
-----------------------------------------------------------------
+---
 
 Author
-Mayank Pandey
+#Mayank Pandey
 B.Tech CSE
 Specialisation in Artificial Intelligence and Machine Learning
 
