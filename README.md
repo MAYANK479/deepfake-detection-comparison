@@ -215,7 +215,7 @@ Epics2.ipynb
 
  Author
 
-Mayank Pandey
-B.Tech CSE (AI & ML Specialization)
+#Mayank Pandey
+##B.Tech CSE (AI & ML Specialization)
 
 ---
