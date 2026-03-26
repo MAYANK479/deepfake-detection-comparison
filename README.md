@@ -179,6 +179,32 @@ deepfake-detection-comparison
     └── validation_accuracy_comparison.png
 
 ```
+
+## Datasets
+
+This project uses two datasets for deepfake image classification and model comparison.
+
+### Dataset 1: Real and Fake Face Detection
+Source: [Kaggle - Real and Fake Face Detection](https://www.kaggle.com/datasets/ciplab/real-and-fake-face-detection)
+
+- Real images: 1081
+- Fake images: 960
+- Total images: 2041
+
+This dataset was used for the initial model comparison on a smaller image set.
+
+### Dataset 2: RVF10K
+Source: [Kaggle - RVF10K](https://www.kaggle.com/datasets/sachchitkunichetty/rvf10k)
+
+- Total images: 10,000
+
+This dataset was used for broader performance evaluation on a larger benchmark dataset.
+
+### Note
+
+The datasets are not included in this repository due to file size limitations.
+Please download them from the source links above and place them in the appropriate local folders before running the notebook.
+
 ---
 
 ## Installation
