@@ -204,6 +204,7 @@ Epics2.ipynb
 ---
 
  Future Work
+ 
 	•	Add precision, recall, F1-score, and ROC-AUC comparisons
 	•	Improve generalization using stronger data augmentation
 	•	Convert notebook-based workflows into modular Python scripts
@@ -216,7 +217,5 @@ Epics2.ipynb
 
 Mayank Pandey
 B.Tech CSE (AI & ML Specialization)
-
-🔗 GitHub: @MAYANK479
 
 ---
