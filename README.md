@@ -185,37 +185,38 @@ deepfake-detection-comparison
 
 Clone the repository and move into the project directory:
 
+```bash
 git clone https://github.com/MAYANK479/deepfake-detection-comparison.git
 cd deepfake-detection-comparison
 pip install -r requirements.txt
-
+```
 ---
 
 Usage
 Launch Jupyter Notebook:
-
+```
 jupyter notebook
-
+```
 Open and run:
-
+```
 Epics2.ipynb
+```
+---
+
+ Future Work
+	•	Add precision, recall, F1-score, and ROC-AUC comparisons
+	•	Improve generalization using stronger data augmentation
+	•	Convert notebook-based workflows into modular Python scripts
+	•	Add model checkpoint tracking and experiment logging
+	•	Deploy the best-performing model as a web application
 
 ---
 
-Future Work
-Add precision, recall, F1-score, and ROC-AUC comparisons
-Improve generalization using stronger data augmentation
-Convert notebook-based workflows into modular Python scripts
-Add model checkpoint tracking and experiment logging
-Deploy the best-performing model as a web application
+ Author
 
----
+Mayank Pandey
+B.Tech CSE (AI & ML Specialization)
 
-Author
-#Mayank Pandey
-B.Tech CSE
-Specialisation in Artificial Intelligence and Machine Learning
-
-GitHub: @MAYANK479
+🔗 GitHub: @MAYANK479
 
 ---
