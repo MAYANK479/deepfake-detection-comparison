@@ -204,9 +204,11 @@ Convert notebook-based workflows into modular Python scripts
 Add model checkpoint tracking and experiment logging
 Deploy the best-performing model as a web application
 
-Author
-Mayank Pandey
-B.Tech CSE
-Specialisation in Artificial Intelligence and Machine Learning
+## Author
 
-GitHub Profile
+**Mayank Pandey**  
+**B.Tech CSE**  
+**Specialisation in Artificial Intelligence and Machine Learning**  
+
+[GitHub Profile](https://github.com/MAYANK479)
+
