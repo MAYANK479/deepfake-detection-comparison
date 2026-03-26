@@ -1,64 +1,60 @@
 # Deepfake Detection Comparison
 
-A deepfake image detection project comparing multiple deep learning models across two datasets using transfer learning and hybrid architectures.
+[![Python](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)](https://jupyter.org/)
+[![Deep Learning](https://img.shields.io/badge/Deep-Learning-red.svg)]()
+[![Status](https://img.shields.io/badge/Project-Academic%20Research-success.svg)]()
 
-## Overview
+Comparative study of deep learning models for deepfake image detection across two datasets using transfer learning, hybrid architectures, and attention-based modeling.
 
-This project focuses on binary deepfake image classification using six different deep learning approaches. The main goal is to compare model performance on two datasets of different sizes and understand which architecture generalizes best for deepfake detection.
+---
 
-The models evaluated in this project are:
+## Project Highlights
 
-- VGG16 + MTCNN
-- CNN
-- LSTM
-- CNN + LSTM
-- CNN + InceptionV3
-- CNN + InceptionV3 + Attention
+- Comparative evaluation of 6 deep learning models
+- Experiments conducted on 2 datasets of different scales
+- Analysis based on accuracy, validation accuracy, loss, and validation loss
+- Includes visual comparison graphs and performance tables
+- Focused on identifying the most effective architecture for deepfake image classification
 
-The comparison is based on:
+---
+
+## Models Evaluated
+
+| No. | Model |
+|----|-------|
+| 1 | VGG16 + MTCNN |
+| 2 | CNN |
+| 3 | LSTM |
+| 4 | CNN + LSTM |
+| 5 | CNN + InceptionV3 |
+| 6 | CNN + InceptionV3 + Attention |
+
+---
+
+## Dataset Summary
+
+| Dataset | Description | Details |
+|--------|-------------|---------|
+| Dataset 1 | Small dataset | Real: 1081, Fake: 960, Total: 2041 |
+| Dataset 2 | Large dataset | Total images: 10,000 |
+
+---
+
+## Evaluation Metrics
+
+The models were compared using the following metrics:
 
 - Training Accuracy
 - Validation Accuracy
 - Training Loss
 - Validation Loss
 
-## Dataset Information
+---
+
+## Performance Results
 
 ### Dataset 1
-Small dataset used for initial model comparison.
-
-- Real images: 1081
-- Fake images: 960
-- Total images: 2041
-
-### Dataset 2
-Large dataset used for broader performance evaluation.
-
-- Total images: 10,000
-
-## Models Used
-
-### 1. VGG16 + MTCNN
-A transfer learning model that uses MTCNN for face detection and VGG16 as the feature extractor for deepfake classification.
-
-### 2. CNN
-A custom convolutional neural network designed for binary classification of real and fake images.
-
-### 3. LSTM
-An LSTM-based model trained on reshaped image sequences to capture spatial patterns as sequential features.
-
-### 4. CNN + LSTM
-A hybrid architecture that combines convolutional feature extraction with sequential learning.
-
-### 5. CNN + InceptionV3
-A transfer learning model based on InceptionV3 for extracting richer visual features.
-
-### 6. CNN + InceptionV3 + Attention
-An improved version of the InceptionV3-based architecture with an attention mechanism to focus on more important facial regions.
-
-## Performance Summary
-
-### Dataset 1 Results
 
 | Model | Accuracy | Loss | Val Accuracy | Val Loss |
 |------|----------|------|--------------|----------|
@@ -69,7 +65,7 @@ An improved version of the InceptionV3-based architecture with an attention mech
 | CNN+InceptionV3 | 0.9520 | 0.1759 | 0.9924 | 0.0856 |
 | CNN+InceptionV3+Attention | 0.9966 | 0.0265 | 1.0000 | 0.0077 |
 
-### Dataset 2 Results
+### Dataset 2
 
 | Model | Accuracy | Loss | Val Accuracy | Val Loss |
 |------|----------|------|--------------|----------|
@@ -79,6 +75,8 @@ An improved version of the InceptionV3-based architecture with an attention mech
 | CNN+LSTM | 0.5370 | 0.6828 | 0.5200 | 0.7025 |
 | CNN+InceptionV3 | 0.9890 | 0.0260 | 0.8425 | 0.7977 |
 | CNN+InceptionV3+Attention | 0.9900 | 0.0346 | 0.8075 | 0.6593 |
+
+---
 
 ## Accuracy Comparison
 
@@ -91,40 +89,43 @@ An improved version of the InceptionV3-based architecture with an attention mech
 | CNN+InceptionV3 | 0.9520 | 0.9890 |
 | CNN+InceptionV3+Attention | 0.9966 | 0.9900 |
 
-## Graphs and Visual Comparisons
+---
+
+## Visual Results
 
 ### Model Comparison Across Dataset 1 and Dataset 2
-
-This graph compares all six models using training accuracy, validation accuracy, training loss, and validation loss.
+Comparison of training accuracy, validation accuracy, training loss, and validation loss.
 
 ![Model Comparison](images/model_comparison.png)
 
 ### Accuracy Comparison of All Models
-
-This graph compares the overall training accuracy of all six models across both datasets.
+Overall training accuracy comparison across both datasets.
 
 ![Accuracy Comparison](images/accuracy_comparison.png)
 
 ### Validation Accuracy Comparison
-
-This graph highlights the validation accuracy of all models and helps compare their generalization performance.
+Validation accuracy comparison to highlight generalization performance.
 
 ![Validation Accuracy Comparison](images/validation_accuracy_comparison.png)
 
-## Key Observations
+---
 
-- `CNN+InceptionV3+Attention` achieved the best overall performance on Dataset 1 with the highest training and validation accuracy and the lowest validation loss.
-- `CNN+InceptionV3` and `VGG16+MTCNN` also showed strong results, especially on the smaller dataset.
-- On Dataset 2, the transfer learning based models maintained very high training accuracy, but validation accuracy dropped compared to Dataset 1, suggesting some overfitting.
-- `CNN`, `LSTM`, and `CNN+LSTM` performed significantly worse than the transfer learning models.
-- LSTM-based approaches were less effective for this image classification task compared to CNN and Inception-based architectures.
+## Key Findings
 
-## Project Structure
+- `CNN+InceptionV3+Attention` achieved the best overall performance on Dataset 1.
+- `CNN+InceptionV3` and `VGG16+MTCNN` also showed consistently strong results.
+- Transfer learning based models outperformed standard CNN and LSTM-based approaches.
+- LSTM and CNN+LSTM delivered the weakest results for image-based deepfake classification.
+- On Dataset 2, some models showed strong training accuracy but lower validation accuracy, suggesting overfitting.
+
+---
+
+## Repository Structure
 
 ```bash
 deepfake-detection-comparison/
-│
 ├── .gitignore
+├── README.md
 ├── Epics2.ipynb
 ├── epics1.ipynb
 ├── requirements.txt
@@ -132,6 +133,7 @@ deepfake-detection-comparison/
     ├── model_comparison.png
     ├── accuracy_comparison.png
     └── validation_accuracy_comparison.png
+
 
 Installation
 Clone the repository:
